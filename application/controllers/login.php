@@ -21,6 +21,10 @@ class Login extends CI_Controller {
 	{
 		$this->load->view('login_view');
 	}
+	public function mensaje()
+	{
+		echo 'Mensaje de Prueba!';
+	}
 }
 
 /* End of file login.php */
